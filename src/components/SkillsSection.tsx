@@ -110,10 +110,7 @@ const SkillsSection = () => {
         {/* Performance Stats */}
         <div className="mt-16 text-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            
-            
-            
-            
+    
           </div>
         </div>
       </div>
