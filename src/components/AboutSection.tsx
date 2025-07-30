@@ -62,13 +62,13 @@ const AboutSection = () => {
               <Card className="racing-card p-4 text-center">
                 <Code className="w-8 h-8 text-racing-red mx-auto mb-2" />
                 <div className="font-black">FRONTEND</div>
-                <div className="text-sm text-muted-foreground">React Specialist</div>
+                <div className="text-sm text-muted-foreground"></div>
               </Card>
               
               <Card className="racing-card p-4 text-center">
                 <Settings className="w-8 h-8 text-sky-400 mx-auto mb-2" />
                 <div className="font-black">BACKEND</div>
-                <div className="text-sm text-muted-foreground">Node.js Expert</div>
+                <div className="text-sm text-muted-foreground"></div>
               </Card>
             </div>
 
