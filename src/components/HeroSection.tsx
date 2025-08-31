@@ -46,7 +46,7 @@ const HeroSection = () => {
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             </a>
-            <a href="Resume.pdf" download>
+            <a href="resume.html" target="_blank">
   <Button variant="racingOutline" size="lg">
     Download CV
   </Button>

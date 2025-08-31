@@ -18,7 +18,12 @@ import dashboardImage12 from "@/assets/railway.jpg";
 import dashboardImage13 from "@/assets/music.jpg";
 import dashboardImage14 from "@/assets/Alumnit.jpg";
 import dashboardImage15 from "@/assets/todo.jpg";
+import dashboardImage17 from "@/assets/chat.jpg";
+import dashboardImage18 from "@/assets/Blog.jpg";
+import dashboardImage19 from "@/assets/url.jpg";
+import dashboardImage20 from "@/assets/speaker.jpg";
 import dashboardImage16 from "@/assets/Age.jpg";
+
 
 
 
@@ -233,7 +238,70 @@ const ProjectsSection = () => {
     metrics: { users: "N/A", speed: "N/A", uptime: "N/A" },
     icon: Rocket,
     color: 'racing-neon-blue'
-  }
+  },
+
+  //Java Projects
+  {
+    id: 18,
+    title: 'To Do List API',
+    description: 'To-Do List API with Spring Boot with full CRUD functionality and in memory database.',
+    image: dashboardImage15,
+    technologies: ['Java','Spring Boot', 'Spring Data JPA', 'H2 In-Memory Database'],
+    category: 'Backend REST API',
+    status: 'Completed',
+    metrics: { users: "N/A", speed: "N/A", uptime: "N/A"},
+    icon: Zap,
+    color: 'racing-red'
+  },
+    {
+    id: 19,
+    title: 'Microphone to Speaker',
+    description: 'Capturing the mic --> Sending data --> Playing audio',
+    image: dashboardImage20,
+    technologies: ['Java','Spring Boot','Maven'],
+    category: 'Backend Application',
+    status: 'Completed',
+    metrics: { users: "N/A", speed: "N/A", uptime: "N/A"},
+    icon: Zap,
+    color: 'racing-red'
+  },
+  {
+    id: 20,
+    title: 'Real-Time Chat Application',
+    description: 'This application allows multiple users to join different chat rooms and exchange messages in real-time using WebSockets.',
+    image: dashboardImage17,
+    technologies: ['Java','Spring Boot','Spring WebSocket', 'Maven'],
+    category: 'Client-Server Application',
+    status: 'Completed',
+    metrics: { users: "N/A", speed: "N/A", uptime: "N/A"},
+    icon: Zap,
+    color: 'racing-red'
+  },
+  {
+    id: 21,
+    title: 'URL shortener service',
+    description: 'A fully functional URL shortener service with a web UI, built using Java and Spring Boot.',
+    image: dashboardImage19,
+    technologies: ['Java','Spring Boot','Spring Data JPA', 'Spring Security'],
+    category: ' Backend REST API',
+    status: 'Completed',
+    metrics: { users: "N/A", speed: "N/A", uptime: "N/A"},
+    icon: Zap,
+    color: 'racing-red'
+  },
+  {
+    id: 22,
+    title: 'Blog API with Spring Boot ',
+    description: 'The project includes full CRUD (Create, Read, Update, Delete) functionality for posts and comments, secured by a modern JWT-based authentication system.',
+    image: dashboardImage18,
+    technologies: ['Java','Spring Boot','Spring Data JPA','Spring Security'],
+    category: ' Backend REST API',
+    status: 'Completed',
+    metrics: { users: "N/A", speed: "N/A", uptime: "N/A"},
+    icon: Zap,
+    color: 'racing-red'
+  },
+  
 ];
 
   return (
