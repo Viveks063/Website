@@ -46,7 +46,8 @@ const HeroSection = () => {
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             </a>
-            <a href="resume.html" target="_blank">
+            </a>
+            <a href="https://rsume-cv-suv.vercel.app/resumecv_1756643292.pdf" target="_blank" rel="noopener noreferrer">
   <Button variant="racingOutline" size="lg">
     Download CV
   </Button>
